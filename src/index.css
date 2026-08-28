@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --palhana-espresso: #4B2E20;
+    --palhana-brown: #7A4A2E;
+    --palhana-caramel: #D79A61;
+    --palhana-cream: #F5EDE3;
+    --palhana-pink: #D88A8A;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-brand {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+
+  .font-handwriting {
+    font-family: 'Caveat', cursive;
+  }
+}
+
+/* Custom artisanal scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EDE3;
+}
+::-webkit-scrollbar-thumb {
+  background: #D79A61;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7A4A2E;
+}
+
+/* Dotted stamp stitch border */
+.stitch-border {
+  border: 2px dashed #D79A61;
+}
+
+.seal-shadow {
+  box-shadow: 0 4px 14px 0 rgba(75, 46, 32, 0.12);
+}
+
+.kraft-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(215, 154, 97, 0.28);
+}
+

@@ -1,0 +1,7 @@
+{
+  "name": "Palhanas - Palha Italiana Artesanal",
+  "description": "Aplicativo de prospecção, catálogo WhatsApp, controle de estoque, rastreio de entregas e gestão de pagamentos da Palhanas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
